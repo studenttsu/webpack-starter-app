@@ -39,6 +39,13 @@ module.exports = {
             name: 'images/[name].[ext]'
           }
         }]
+      },
+      {
+        test: /\.(woff|ttf|otf|eot|woff2)$/i,
+        loader: 'file-loader',
+        options: {
+          name: 'fonts/[name].[ext]'
+        }
       }
     ]
   },

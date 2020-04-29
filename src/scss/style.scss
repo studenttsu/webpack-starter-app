@@ -1,3 +1,9 @@
-h1 {
-  color: #000;
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
