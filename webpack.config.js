@@ -12,6 +12,18 @@ module.exports = {
     path: PATHS.dist,
     filename: '[name].js'
   },
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      }
+    ]
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: PATHS.src + '/index.html',
