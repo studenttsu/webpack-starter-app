@@ -1,5 +1,5 @@
 @import '~normalize.css/normalize.css';
-@import 'libs';
+@import './utils/libs';
 
 @font-face {
   font-family: 'Roboto';
@@ -14,3 +14,5 @@ body {
 .text-center {
   text-align: center;
 }
+
+@import './media';
