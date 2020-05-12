@@ -1,3 +1,6 @@
+@import '~normalize.css/normalize.css';
+@import 'libs';
+
 @font-face {
   font-family: 'Roboto';
   font-weight: normal;
@@ -9,6 +12,5 @@ body {
 }
 
 .text-center {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
